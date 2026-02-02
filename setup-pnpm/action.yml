@@ -1,4 +1,5 @@
 name: setup-pnpm
+description: "setup pnpm"
 
 runs:
     using: "composite"
