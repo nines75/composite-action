@@ -8,13 +8,5 @@ runs:
 
     - uses: pnpm/action-setup@v6
       with:
-        version: 11
-        run_install: false # キャッシュを使用するために必要
-
-    - uses: actions/setup-node@v6
-      with:
-        node-version: 24
-        cache: "pnpm"
-
-    - run: pnpm install
-      shell: bash
+        run_install: true
+        cache: true
